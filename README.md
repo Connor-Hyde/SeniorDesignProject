@@ -17,7 +17,19 @@
 ## Project Description
 <a name="project-description"></a>
 
-> Updated 400-character abstract reflecting the final version of the project
+> Background
+The purpose of this project is to elevate the gameplay experience of table-top role-playing games such as “Dungeons and Dragons”. These games are often played in the ‘theater of the mind’ using minimal props for visualizing the world in which the players are role-playing. However, many players do like to use a ‘battle mat’ to help visualize the specific locations and layouts of a certain area in the game.
+
+![photoHere](Images/2DPlaymat.jpg)
+
+These mats consist of a large grid of squares. Each square represents a scaled down distance in game; players can use miniature figures of their characters to represent where they are in the world. The downside to these mats is that they are low tech and only two dimensional. Some players turn to using small blocks or walls to create a more 3D feeling to their environments, while others invest time and money into creating elaborate dioramas for their games.
+
+![photoHere](Images/3DModel.jpg)
+
+This project aims to bridge the gap between low tech battle mats and high detail dioramas with programable, 3D topography, built into the game table.
+
+> Objectives
+This project aims to create a device that can be inserted into any table and convert it into a 3D topographical map that is fully programable to create scenes and landscapes for their gameplay. The final product will consist of a grid of cubes, each capable of being raised and lowered to create a 3D landscape. The shape of the scene will be determined by a graphical user interface where the players can create their map in 2D in the program and then watch as their creation comes to life in the table.
 
 ## User Interface Specification
 <a name="user-interface-specification"></a>
