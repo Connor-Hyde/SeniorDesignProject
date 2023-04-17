@@ -34,10 +34,12 @@ This project aims to create a device that can be inserted into any table and con
 ## User Interface Specification
 <a name="user-interface-specification"></a>
 
-The user interface was designed using Windows Presentation Foundation (WPF), and consists of 3 key features: 
-    1. A slider for specifying height
-    2. 3 buttons, for executing actions
-    3. A 10x10 grid of squares, visually representing what the physical table will look like
+The user interface was designed using Windows Presentation Foundation (WPF), and consists of 3 key features:
+
+1. A slider for specifying height
+2. 3 buttons, for executing actions
+3. A 10x10 grid of squares, visually representing what the physical table will look like
+
 
 ![photoHere](Images/UIDesign.png)
 
@@ -46,9 +48,10 @@ The slider uses a gradient of colors from green to yellow to red, with a text bo
 
 ### Buttons
 There are presently 3 buttons that allow the user to execute their respective actions:
-    1. Import: A text file can be imported, which will instantly apply a pre-recorded configuration to the grid.
-    2. Export: This exports the current configuration, so that at a later time it can be re-applied if desired.
-    3. Run: This executes the main functions of the table, sending the current configuration to the Arduino sketch. This is done by serialized communication with the board, and upon selecting this command the user will begin to see movements in the table until all cubes have been raised to desired height.
+
+1. Import: A text file can be imported, which will instantly apply a pre-recorded configuration to the grid.
+2. Export: This exports the current configuration, so that at a later time it can be re-applied if desired.
+3. Run: This executes the main functions of the table, sending the current configuration to the Arduino sketch. This is done by serialized communication with the board, and upon selecting this command the user will begin to see movements in the table until all cubes have been raised to desired height.
 
 ### Grid
 The grid uses a gradient color scale to help the user visualize what they are creating on the table in 3 dimensions. From the image above, this would create something similar to a staircase, with a platform at the top. The idea was derived from topographical terrain maps that use gradients to visualize elevation on a 2 dimensional plane.
