@@ -110,12 +110,20 @@ The user manual for this project was created to be printable, so was put in PDF 
 ### Initial Self-Assessments
 <a name="initial-self-assessments"></a>
 
-> Fall semester self-assessments
+Having developed a preliminary outline of the table's functionality and codebase, I have identified potential challenges and viable solutions. The most significant challenge involves writing the Arduino code, as this will be my first foray into programming a physical device, a departure from my prior experience in digital programming. Additionally, our team lacks electrical or computer engineering expertise, which may complicate the wiring and circuitry aspects of the project.
+
+Regarding the user interface, I possess prior experience with Windows Presentation Foundation (WPF), which should facilitate a relatively seamless execution of this project component. Although my expertise in XAML is limited, my understanding of the fundamentals should be sufficient to prevent major obstacles during the project. I anticipate that designing and testing the user interface will consume less time than integrating the various components.
+
+The primary focus of our efforts will likely be perfecting the motor movements and establishing the table's circuitry, which will prove essential to the successful completion of the project.
 
 ### Final Self-Assessments
 <a name="final-self-assessments"></a>
 
-> Spring semester self-assessments (do not include confidential Team-Assessments)
+My most significant contribution to the project was undoubtedly the codebase, encompassing both the Arduino and User Interface (UI) elements. Collaborating with two Mechanical Engineers, I was aware from the outset that the responsibility for all coding tasks would fall to me. During the planning phase, I identified challenges and knowledge gaps that could hinder progress. However, I am pleased to report that these obstacles were successfully overcome.
+
+Developing the codebase entailed two primary components: the UI and the Arduino code. The UI was designed using Windows Presentation Foundation (WPF) and involved creating an MVVM (Model-View-ViewModel) application to enable user interaction. Although the program operates as intended, I encountered difficulties in adhering to the MVVM principles. The majority of my logic is housed in the MainWindow file, which is less than ideal within this architectural framework.
+
+Despite these challenges, I gained valuable experience working with XAML and Arduino, and I now feel more confident in writing code using these languages. My personal greatest obstacle was serializing data from the UI to the Arduino board. Given my limited knowledge of circuitry, even seemingly minor tasks involving physical interaction with the code proved difficult to overcome.
 
 ## Summary of Hours and Justification
 <a name="summary-of-hours-and-justification"></a>
@@ -125,7 +133,8 @@ The user manual for this project was created to be printable, so was put in PDF 
 ## Summary of Expenses
 <a name="summary-of-expenses"></a>
 
-> Provide an overview of project expenses
+We were able to organize our entire bill of materials into a concise table:
+![photoHere](Images/BillofMaterials.png)
 
 ## Appendix
 <a name="appendix"></a>
