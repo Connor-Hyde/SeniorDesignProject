@@ -59,7 +59,30 @@ The grid uses a gradient color scale to help the user visualize what they are cr
 ## Test Plan and Results
 <a name="test-plan-and-results"></a>
 
-> Describe execution and results of all tests
+### Test Plan
+
+For this project, the primary testing approach will be unit testing, supplemented by integration testing for more complex components. The goal is to adhere to Test-Driven Development (TDD) practices as closely as possible, as this has become a habit in professional work environments. Although TDD can sometimes be tedious, it is crucial to ensure that methods and classes are thoroughly tested.
+
+Regardless of the specific approach, the project will have as many components (methods and classes) tested as feasible. Integration tests may be required when developing the Arduino aspect of the project, which might necessitate exploring various test suites capable of running both code segments concurrently in a single test.
+
+For unit testing, NCrunch, a valuable tool for debugging and viewing all tests within a given solution simultaneously, will be utilized. Mocking frameworks and NUnit will be employed to construct the tests.
+
+### Test Results
+
+All tests can be found in the /Code/TerrainTableWpf/Tests subdirectory. There were 10 tests in total to ensure that all logic is set up properly, the testing matrix summarizing all aspects of the testing can be found below:
+
+| Test Identifier | Purpose of Test | Inputs for Test | Expected Outputs/Results | Unit Test Indication |
+| --------------- | ------------------------------------ | --------------- | ------------------------ | --------------- |
+| MainWindowConstructor_CreatesExpectedTerrainGrid | Tests that the construction of the UI grid sets the initial state properly | None | Expected that all squares have an initial 'Green' state | Pass |
+| ReadFileContent_ReturnsCorrectFileContent | Ensures the file reader returns exactly what is in the text files for importing | Encoded string of file content | Should return string decoded | Pass |
+| DeserializeAndSetTerrainGrid_SetsTerrainGridHeightsCorrectly | Verifies that an array passed in sets the UI grid heights properly | String array representing square heights | Should set height of each terrain square | Pass
+| SendSerializedGridToSerialPort_WritesSerializedGridToSerialPort | Verifies that the grid is sent to serial port of Arduino board | Serialized grid and port wrapper object | Should call port.write() with serialized grid as parameter | Pass
+| SerializeGrid_SameHeightValues_ReturnsSerializedGrid | Sets the grid heights and checks that serialize grid returns the proper string | None | Should set serialized grid to same value as expected | Pass
+| SerializeGrid_DifferentHeightValues_ReturnsSerializedGrid | Same test as previous, this time giving each square different heights | None | Should set serialized grid to same value as expected | Pass
+| IntToColor_ValueZero_SetsGreenColor | Verifies that when 0 is passed in the color green is set | Integer height | Specified color set on main window green | Pass
+| IntToColor_ValueOneHundred_SetsRedColor | Verifies that when 100 is passed in the color red is set | Integer height | Specified color set on main window red | Pass
+| IntToColor_ValueFifty_SetsYellowColor | Verifies that when 50 is passed in the color yellow is set | Integer height | Specified color set on main window yellow | Pass
+| Slider2_ValueChanged_ValueChanged_SetsSliderValueAndTextBlock1Text | Asserts that changing the slider position updates both the value and inches field | Property changed arguments | Percentage height and inches | Pass
 
 ## User Manual
 <a name="user-manual"></a>
