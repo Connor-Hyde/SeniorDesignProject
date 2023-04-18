@@ -87,7 +87,12 @@ All tests can be found in the /Code/TerrainTableWpf/Tests subdirectory. There we
 ## User Manual
 <a name="user-manual"></a>
 
-> Includes links and screenshots of online user manual
+[View the user manual directly here](Assignments/TerraTableUserManual.pdf)
+The user manual for this project was created to be printable, so was put in PDF form. Ideally, it would be shipped with the table all in one package.
+
+![photoHere](Images/ManualPage1.png)
+![photoHere](Images/ManualPage2.png)
+
 
 ## Spring Final PPT Presentation
 <a name="spring-final-ppt-presentation"></a>
