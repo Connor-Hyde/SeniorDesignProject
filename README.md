@@ -128,7 +128,35 @@ Despite these challenges, I gained valuable experience working with XAML and Ard
 ## Summary of Hours and Justification
 <a name="summary-of-hours-and-justification"></a>
 
-> One per individual team member
+| Name    | Semester 1 Hours | Semester 2 Hours | Year Hours |
+|---------|------------------|------------------|------------|
+| Luke    | 24               | 48               | 72         |
+| Quinton | 24               | 48               | 72         |
+| Connor  | 24               | 48               | 72         |
+
+Total hours: 216
+
+We each only met when all were available, with the first semester consisting of 6 meetings regarding planning. In these meetings, Connor drafted flowcharts and researched architectures for the codebase, while Quinton and Luke create CAD drawings and modeled the product.
+
+Semester 2 had 6 meetings in which we coded/assembled the table, which were each 4 hours each. As the expo approached, we had 3 8 hour days devoted to finishing up the table. This was almost all devoted to soldering capacitors, setting up the circuits, debugging the motors, and finishing assembly. In the appendix below you will find links to CAD drawings, diagrams, and pictures of the product that we took along the way.
+
+Additionally, there were four phases compiled and formatted into a Gantt chart to keep track of tasks.
+
+### Phase 1
+
+![photoHere](Images/Phase1.png)
+
+### Phase 2
+
+![photoHere](Images/Phase2.png)
+
+### Phase 3
+
+![photoHere](Images/Phase3.png)
+
+### Phase 4
+
+![photoHere](Images/Phase4.png)
 
 ## Summary of Expenses
 <a name="summary-of-expenses"></a>
@@ -139,4 +167,27 @@ We were able to organize our entire bill of materials into a concise table:
 ## Appendix
 <a name="appendix"></a>
 
-> Include any additional information, resources, or references
+### Drawings and Diagrams
+
+[Motor calculations and rough drawings of design.](Notes/MotorsRoughDraft.pdf)
+
+[Fully rendered model of the full assy.](Images/TableModelRendered.jpg)
+
+[Detailed model of motor/cube relationship and setup.](Images/MotorsAndCubes.jpg)
+
+[Cross section of the cubes visualizing the inserted threaded rod.](Images/CubeCrossSection.jpg)
+
+### References
+
+US bolts - tightening torques. Engineering ToolBox. (n.d.). Retrieved February 24, 2023, from https://www.engineeringtoolbox.com/us-bolts-torques-d_2055.html 
+
+Beams - supported at both ends - continuous and point loads. Engineering ToolBox. (n.d.). Retrieved February 24, 2023, from https://www.engineeringtoolbox.com/beam-stress-deflection-d_1312.html 
+
+Electric Motor Calculator. Engineering ToolBox. (n.d.). Retrieved February 24, 2023, from https://www.engineeringtoolbox.com/electrical-motor-calculator-d_832.html 
+
+ASTM F963-17: Standard Consumer Safety Specification for Toy Safety, ASTM International Retrieved February 24, 2023,  
+The Federal Register. Federal Register :: Request Access. (n.d.). Retrieved February 24, 2023, from https://www.ecfr.gov/current/title-16 
+
+ULN2003 stepper motor drivers - electronicos caldas. (n.d.). Retrieved February 25, 2023, from https://www.electronicoscaldas.com/datasheet/ULN2003A-PCB.pdf 
+
+Wilson, A. (2009, June 4). WPF colour slider. CodeProject. Retrieved February 24, 2023, from https://www.codeproject.com/Articles/36802/WPF-Colour-Slider 
