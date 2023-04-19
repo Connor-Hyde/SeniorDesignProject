@@ -136,7 +136,7 @@ Despite these challenges, I gained valuable experience working with XAML and Ard
 
 Total hours: 216
 
-We each only met when all were available, with the first semester consisting of 6 meetings regarding planning. In these meetings, Connor drafted flowcharts and researched architectures for the codebase, while Quinton and Luke create CAD drawings and modeled the product.
+We each only met when all were available, with the first semester consisting of 6 meetings regarding planning. In these meetings, Connor drafted flowcharts and researched architectures for the codebase, while Quinton and Luke created CAD drawings and modeled the product.
 
 Semester 2 had 6 meetings in which we coded/assembled the table, which were each 4 hours each. As the expo approached, we had 3 8 hour days devoted to finishing up the table. This was almost all devoted to soldering capacitors, setting up the circuits, debugging the motors, and finishing assembly. In the appendix below you will find links to CAD drawings, diagrams, and pictures of the product that we took along the way.
 
